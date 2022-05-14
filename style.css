@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,900&display=swap');
+
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+/*Body Style*/
+body {
+  height: 200vh;
+  background-color: white;
+  justify-content: center;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Social picture style for the Resume and Courses Page*/
+.SocialPicture {
+  width: 220px;
+  position: absolute;
+  right: 15%;
+  bottom: 45%;
+  opacity: .9;
+  background: linear-gradient(
+    to bottom,
+    white 0%,
+    white 20%,
+    #F9B248 20%,
+    #F9B248 100%
+  );
+  opacity: 80%;
+  position: fixed;
+}
+
+
+/*Menu bar style*/
+.navMenu {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/*Menu bar options style*/
+.navMenu a {
+  color: #EEEEEE;
+  text-decoration: none;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  padding: 14px 16px;
+}
+
+/*Menu bar options hover style*/
+.navMenu a:hover {
+  background-color:  #F9B248;
+}
+
+/*Main content style*/
+.text-box{
+  font-size: .7em;
+  letter-spacing:.1em;
+  display: block;
+  line-height: 20px;
+  text-align: left;
+}
+
+/*Header from main content style*/
+h1 {
+  font-size: 6em;
+  line-height: 1em;
+  margin-left: 1.5em;
+  margin-top: 2em;
+  color: #303841;
+}
+
+/*Paragraph from main content style*/
+.text-box p {
+  font-size: 1em;
+  line-height: 1em;
+  margin-left: 14em;
+  margin-right: 40em;
+  color: #303841;
+  text-align: left; 
+  text-align: justify;
+}
+
+/*-------------CONTENT SPECIFIC FOR THE RESUME PAGE-------------*/
+/*Header 2 education from main content style*/
+.text-box h2.education {
+  font-size: 2em;
+  line-height: 1em;
+  margin-left: 7em;
+  margin-top: 4em;
+  color: #303841;
+  border-bottom: 1px solid #F9B248;
+  margin-right: 42.9em;
+}
+
+/*Header 2 work from main content style*/
+.text-box h2.work {
+  font-size: 2em;
+  line-height: 1em;
+  margin-left: 7em;
+  margin-top: 4em;
+  color: #303841;
+  border-bottom: 1px solid #F9B248;
+  margin-right: 38.8em;
+}
+
+/*Header 2 languages from the resume page*/
+.text-box h2.languages {
+  font-size: 2em;
+  line-height: 1em;
+  margin-left: 7em;
+  margin-top: 4em;
+  color: #303841;
+  border-bottom: 1px solid #F9B248;
+  margin-right: 42.3em;
+}
+
+/*Header 2 volunteer from the resume page*/
+.text-box h2.volunteer {
+  font-size: 2em;
+  line-height: 1em;
+  margin-left: 7em;
+  margin-top: 4em;
+  color: #303841;
+  border-bottom: 1px solid #F9B248;
+  margin-right: 36.2em;
+}
+
+/*Header 2 awards from the resume page*/
+.text-box h2.awards {
+  font-size: 2em;
+  line-height: 1em;
+  margin-left: 7em;
+  margin-top: 4em;
+  color: #303841;
+  border-bottom: 1px solid #F9B248;
+  margin-right: 36.7em;
+}
+
+
+/*Header 3 from the resume page*/
+.text-box h3 {
+  font-size: 1em;
+  line-height: 1em;
+  margin-left: 14em;
+  color: #333;
+  text-align: left;
+  margin-top: 3em;
+}
+
+
+/*Lists from the resume page*/
+.text-box ul li {
+  font-size: .8em;
+  margin-left: 17em;
+  margin-right: 50em;
+  line-height: 2em;
+}
+
+/* Make sure that padding behaves as expected */
+section {
+  box-sizing: border-box;
+  padding-bottom: 5em;
+}
+
+section p {
+  margin-left: 11em;
+  margin-bottom: 0;
+  font-size: .9em;
+  font-weight: bold;
+}
+
+/* Container for skill bars */
+.container {
+  width: 30%;
+  background-color: #ddd;
+  margin-left: 10em;
+}
+
+/*Sets the style for the text inside the language skill bars*/
+.languages {
+  text-align: right;
+  padding-top: 9px;
+  padding-right:5px;
+  padding-bottom: 9px; 
+  color: white; 
+  font-size: .7em;
+}
+
+/*Sets the style for the language skill bars*/
+.portuguese {width: 100%; background-color: #F9B248;} 
+.english {width: 90%; background-color: #F9B248;} 
+.spanish {width: 60%; background-color: #F9B248;} 
+
+/*Sets the style for the language skill bars labels*/
+label {
+  display: inline-block;
+  margin-left: 9em;
+  margin-top: 2em;
+}
+
+
+/*-------------COURSES PAGE SPECIFIC STYLE---------------*/
+/*Sets the style for the search button in the Courses page*/
+/*Header 3 from main content style*/
+h3.coursesHeading {
+  font-size: 1em;
+  line-height: 1em;
+  margin-left: 14em;
+  color: #333;
+  text-align: left;
+  margin-top: 0em;
+}
+
+/*Courses images style*/
+.coursesImages {
+  float:left;
+}
+
+.button {
+  height: 1.8em;
+  background-color: #333;
+  color: #EEEEEE;
+}
+
+/*Sets the style for the search button while hovering the mouse in the Courses page*/
+.button:hover {
+  background-color: #EEEEEE;
+  color:#333
+}
+
+/*Sets the style for the filter in the Courses page*/
+label.filterByLevel {
+  display: inline-block;
+  font-size: .9rem;
+  margin-left: 10em;
+  margin-top: 2em;
+}
+
+/*Sets the style for the Sorting filter in the Courses page*/
+label.sortByLevel {
+  display: inline-block;
+  font-size: .9rem;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+/*Sets the style for the courses images in the Courses page*/
+.coursesImages {
+  width: 10em;
+  border-radius: 6px;
+  display: block;
+  margin-left: 15em;
+  margin-right: 1em;
+}
+
+
+/*--------------HOME PAGE SPECIFIC STYLE--------------*/
+/*Main content style*/
+.text-boxHome{
+  margin-top: 30%;
+  font-size: .7em;
+  letter-spacing:.1em;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/*Header from main content style*/
+.text-boxHome h1 {
+  font-size: 3em;
+  line-height: 1em;
+  margin-left: .7em;
+  color: #303841;
+  padding-top: 1em;
+}
+
+/*Paragraph from main content style*/
+.text-boxHome p {
+  text-align: center;
+  font-weight: 500;
+  margin-left: 20em;
+  margin-right: 20em;
+}
+
+/*Buttom 1 style*/
+.text-boxHome a {
+  display: inline;
+  border-radius: 6px;
+  color: #EEEEEE;
+  font-weight: 1000;
+  background-color:  #F9B248;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+/*Buttom 2 style*/
+.text-boxHome .btn {
+  background-color: #EEEEEE;
+  color: #333;
+  border: 1px solid #333;
+}
+
+/*Buttoms hover style*/
+.text-boxHome a:hover {
+  background-color: #333;
+  color: #EEEEEE;
+  border: 2px solid #EEEEEE;
+}
+
+/*Social picture style for the Home Page*/
+
+.SocialPictureHomePage {
+  width: 220px;
+  position: absolute;
+  right: 40%;
+  bottom: 45%;
+  opacity: .9;
+  background: linear-gradient(
+    to bottom,
+    white 0%,
+    white 20%,
+    #F9B248 20%,
+    #F9B248 100%
+  );
+  opacity: 80%;
+}
+
+
+/*Body Style HomePage*/
+body {
+  height: 40vh;
+  background-color: white;
+  justify-content: center;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+/*This will set the button on the left style from the home page*/
+.text-box a {
+  margin-top: 1.7em;
+  display: inline;
+  border-radius: 6px;
+  color: #EEEEEE;
+  font-weight: 1000;
+  background-color:  #F9B248;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+/*This will set the button on the right style from the home page*/
+.text-box .btn {
+  background-color: #EEEEEE;
+  color: #333;
+  border: 1px solid #333;
+}
+
+/*Buttoms hover style*/
+.text-box a:hover {
+  background-color: #333;
+  color: #EEEEEE;
+  border: 2px solid #EEEEEE;
+}
+
+
+
